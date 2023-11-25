@@ -20,6 +20,7 @@
   Here we can see the output of the program company.cpp
   
   ![image](https://github.com/zpnst/hashing-sockets/assets/105946529/42b8bc5b-5347-4490-8ec9-b790e3141047)
+  ![image](https://github.com/zpnst/hashing-sockets/assets/105946529/8de8ff16-a357-4cfa-8f9d-c56476d92bf8)
 
   First, all records of the server buffer (hash table) were shown.                                                                                                                                        
   Next, a search was made for a client who would write these messages in one session: Hello, World, UNIX                                                                                                  
