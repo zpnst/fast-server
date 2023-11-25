@@ -4,12 +4,9 @@
 
   This is a client-server application in which the hash table acts as a server buffer.                                                                                                                    
   To deal with collisions inside the hash table, a doubly linked list was chosen.                                                                                                                         
-  To end a client session:
-    %stop
-  To end the server session:
-    %shutdown
-    
-    
+  To end a client session: |%stop|                                                                                                                                                                       
+  To end the server session: |%shutdown|                                                                                                                                                                 
+  
 ## Customers Window
 
   Here you can see the consistent interaction of clients with the server.                                                                                                                                 
