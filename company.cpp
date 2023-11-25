@@ -16,12 +16,12 @@ int main(int argc, char** argv) {
 
     /* Printing records from the 
        server buffer that contain certain messages */
-    serv.serach_by_messages("I love loky");
+    serv.serach_by_messages("Hello", "World", "UNIX");
     std::cout << std::endl;
     
     /* Printing a record from the buffer 
        from a specific client, received by name */
-    serv.serach_by_name("Safa");
+    serv.serach_by_name("Linus Torvalds");
 
     return 0;
 }
