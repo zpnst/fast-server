@@ -82,8 +82,8 @@ HashTable& run_server(HashTable& table) {
             /* A condition that checks whether 
                the client has suspended the server operation */
             if (terminator(server_buffer, KILL_CONNECTION)) {
-                table.push(cpp_client_name, runtime_buffer);
-                return table;
+               table.push(cpp_client_name, runtime_buffer);
+               return table;
 
             }
             else {
