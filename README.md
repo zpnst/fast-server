@@ -1,4 +1,4 @@
-# Hashing Sockets
+# Fast Server
 
 ## Structure
 
