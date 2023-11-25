@@ -1,5 +1,5 @@
 
-# include "usources.hpp"
+# include <hs/connection/usources.hpp>
 
 
 /* A function 
