@@ -1,8 +1,8 @@
 
-# include <hs/hashtable/box.hpp>
 # include <cstdint>
-# include <hs/hashtable/list.hpp>
 # include <iostream>
+# include <tools/hashtable/box.hpp>
+# include <tools/hashtable/list.hpp>
 
 # define TABLE_SIZE 10000000
 

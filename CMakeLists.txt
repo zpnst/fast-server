@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.25)
-project(hashing_sockets) # they are not hashing anything, it still disturbing me
+project(fast_server)
 
 if(NOT UNIX)
     message(FATAL_ERROR "It seems like your platform is not UNIX-like")
 endif()
 
-add_executable(client "src/clients.cpp")
-add_executable(company "src/company.cpp")
+add_executable(client "sources/clients.cpp")
+add_executable(company "sources/company.cpp")
 
 file(GLOB ${PROJECT_NAME}_HEADERS "include/*.hpp" "include/*/*.hpp")
-file(GLOB ${PROJECT_NAME}_SOURCES "src/*.cpp" "src/*/*.cpp")
+file(GLOB ${PROJECT_NAME}_SOURCES "sources/*.cpp" "sources/*/*.cpp")
 
 add_library(${PROJECT_NAME} ${${PROJECT_NAME}_HEADERS} ${${PROJECT_NAME}_SOURCES})
 

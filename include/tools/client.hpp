@@ -1,6 +1,6 @@
 
 # include <iostream>
-# include <hs/connection/uclient.hpp>
+# include <tools/connection/uclient.hpp>
 
 
 /* The simplest class 
