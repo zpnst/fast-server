@@ -1,8 +1,8 @@
 
 # include <vector>
 # include <iostream>
-# include "../hashtable/table.hpp"
-# include "../connection/userver.hpp"
+# include <hs/hashtable/table.hpp>
+# include <hs/connection/userver.hpp>
 
 
 /* A class describing the server 

@@ -1,8 +1,8 @@
 
 # include <vector>
 # include <cstdint>
-# include "usources.hpp"
-# include "../hashtable/table.hpp"
+# include <hs/connection/usources.hpp>
+# include <hs/hashtable/table.hpp>
 
 
 /* Function describing 
